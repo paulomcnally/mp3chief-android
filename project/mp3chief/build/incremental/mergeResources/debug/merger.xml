@@ -192,7 +192,7 @@ Reproducir
                 </color>
                 <color name="item_background_pressed" >#2fb0e0
                 </color>
-                <color name="actionbar" >#dddddd
+                <color name="actionbar" >#000000
                 </color>
                 <color name="divider" >#dbdbdb
                 </color>

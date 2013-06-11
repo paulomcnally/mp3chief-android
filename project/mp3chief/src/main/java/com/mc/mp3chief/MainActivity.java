@@ -9,6 +9,7 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.app.Activity;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
@@ -16,6 +17,7 @@ import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.mc.mp3chief.tools.Api;
@@ -28,8 +30,10 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 
+import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.net.URLEncoder;
 
 
 public class MainActivity extends Activity {
@@ -38,6 +42,9 @@ public class MainActivity extends Activity {
     private ProgressDialog mProgressDialog;
     private String my_url;
     private String my_title;
+
+    private ProgressBar progressBarSearch;
+    private ImageButton search_button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,16 +66,26 @@ public class MainActivity extends Activity {
     }
 
     private void initSearchAction() {
+        progressBarSearch = (ProgressBar) findViewById(R.id.progressBarSearch);
         final EditText search_text = (EditText) findViewById(R.id.editTextSearch);
-        ImageButton search_button = (ImageButton) findViewById(R.id.imageButtonSearch);
+        search_button = (ImageButton) findViewById(R.id.imageButtonSearch);
         search_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 new AsyncRequest().execute(search_text.getText().toString());
             }
         });
+    }
 
-
+    private void progressSearch(boolean show){
+        if( show ){
+            search_button.setVisibility(View.GONE);
+            progressBarSearch.setVisibility(View.VISIBLE);
+        }
+        else{
+            progressBarSearch.setVisibility(View.GONE);
+            search_button.setVisibility(View.VISIBLE);
+        }
     }
 
 
@@ -82,6 +99,7 @@ public class MainActivity extends Activity {
     private class AsyncRequest extends AsyncTask<String, String, JSONArray> {
 
         protected void onPreExecute() {
+            progressSearch(true);
             getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
             // progressBarHome.setVisibility(View.VISIBLE);
         }
@@ -96,6 +114,8 @@ public class MainActivity extends Activity {
         }
 
         protected void onPostExecute(JSONArray list_song) {
+
+
             LinearLayout list_container = (LinearLayout) findViewById(R.id.linearLayoutList);
             list_container.removeAllViews();
             LayoutInflater inflater = (LayoutInflater) getApplicationContext()
@@ -143,11 +163,21 @@ public class MainActivity extends Activity {
                     }
                 }
             }
+            progressSearch(false);
         }
+
+
 
     }
 
     private void showDialog(String url, String title) {
+
+        String url_parse = "";
+        try {
+            url_parse = URLEncoder.encode(url, "UTF-8");
+        } catch (UnsupportedEncodingException e) {
+            Log.e("UnsupportedEncodingException", e.getMessage());
+        }
 
         my_url = url;
         my_title = title;
@@ -168,10 +198,10 @@ public class MainActivity extends Activity {
                         switch (which) {
                             case 0:
                                 DownloadFile downloadFile = new DownloadFile();
-                                downloadFile.execute(my_url, my_title);
+                                downloadFile.execute(Uri.parse(my_url).toString(), my_title);
                                 break;
                             case 1:
-                                playMusic(my_url);
+                                playMusic(Uri.parse(my_url).toString());
                                 break;
                         }
 
@@ -205,6 +235,8 @@ public class MainActivity extends Activity {
         @Override
         protected String doInBackground(String... sUrl) {
             try {
+                Log.i("Download Url",sUrl[0]);
+                Log.i("Download Name",sUrl[1]);
                 URL url = new URL(sUrl[0]);
                 HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
                 urlConnection.setRequestMethod("GET");

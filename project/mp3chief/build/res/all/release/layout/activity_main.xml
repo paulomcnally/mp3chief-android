@@ -19,6 +19,13 @@
                 android:layout_weight="0.9"
                 android:layout_height="50dp"></EditText>
 
+        <ProgressBar
+                android:id="@+id/progressBarSearch"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:visibility="gone" />
+
         <ImageButton
                 android:src="@drawable/ic_search_inverse"
                 android:layout_width="50dp"

@@ -35,11 +35,12 @@ public final class R {
         public static final int list_selector_selected=0x7f020006;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a0004;
+        public static final int action_settings=0x7f0a0005;
         public static final int editTextSearch=0x7f0a0000;
-        public static final int imageButtonSearch=0x7f0a0001;
-        public static final int linearLayoutList=0x7f0a0002;
-        public static final int textViewName=0x7f0a0003;
+        public static final int imageButtonSearch=0x7f0a0002;
+        public static final int linearLayoutList=0x7f0a0003;
+        public static final int progressBarSearch=0x7f0a0001;
+        public static final int textViewName=0x7f0a0004;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -54,6 +55,7 @@ public final class R {
         public static final int dialog_cancel=0x7f070002;
         public static final int dialog_title=0x7f070003;
         public static final int example=0x7f070004;
+        public static final int hello_world=0x7f070005;
     }
     public static final class style {
         /** 

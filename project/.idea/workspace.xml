@@ -13,12 +13,14 @@
   <component name="ChangeListManager">
     <list default="true" id="7ac0b9c9-00de-48ff-83e0-e993d08f76f2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mp3chief/src/main/java/com/mc/mp3chief/MainActivity.java" afterPath="$PROJECT_DIR$/mp3chief/src/main/java/com/mc/mp3chief/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mp3chief/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/mp3chief/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mp3chief/src/main/res/values-es/strings.xml" afterPath="$PROJECT_DIR$/mp3chief/src/main/res/values-es/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mp3chief/build/source/r/debug/com/mc/mp3chief/R.java" afterPath="$PROJECT_DIR$/mp3chief/build/source/r/debug/com/mc/mp3chief/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mp3chief/build/source/r/release/com/mc/mp3chief/R.java" afterPath="$PROJECT_DIR$/mp3chief/build/source/r/release/com/mc/mp3chief/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mp3chief/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/mp3chief/build/res/all/debug/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mp3chief/build/res/all/release/layout/activity_main.xml" afterPath="$PROJECT_DIR$/mp3chief/build/res/all/release/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mp3chief/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/mp3chief/src/main/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mp3chief/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/mp3chief/src/main/res/values/colors.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mp3chief/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/mp3chief/build/res/all/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mp3chief/build/res/all/debug/values-es/values.xml" afterPath="$PROJECT_DIR$/mp3chief/build/res/all/debug/values-es/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mp3chief/build/res/all/release/values/values.xml" afterPath="$PROJECT_DIR$/mp3chief/build/res/all/release/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mp3chief/build/res/all/release/values-es/values.xml" afterPath="$PROJECT_DIR$/mp3chief/build/res/all/release/values-es/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mp3chief.iws" />
@@ -30,6 +32,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -83,13 +90,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mp3chief/src/main/java/com/mc/mp3chief/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="272" column="9" selection-start="8764" selection-end="8764" vertical-scroll-proportion="0.71389645" vertical-offset="4124" max-vertical-offset="4709">
+            <state line="38" column="13" selection-start="975" selection-end="975" vertical-scroll-proportion="-3.8461537" vertical-offset="546" max-vertical-offset="5355">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#5895#5927#0" expanded="true" />
+                <element signature="e#6011#6721#0" expanded="true" />
+                <element signature="e#6702#6703#0" expanded="true" />
+                <element signature="e#6741#6774#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="device-2013-06-11-023524.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../screenshots/device-2013-06-11-023524.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="device-2013-06-11-024041.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../screenshots/device-2013-06-11-024041.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="device-2013-06-11-024058.png" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../screenshots/device-2013-06-11-024058.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Api.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mp3chief/src/main/java/com/mc/mp3chief/tools/Api.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="8" selection-start="997" selection-end="1224" vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="1037">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="colors.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mp3chief/src/main/res/values/colors.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="35" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,7 +147,7 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mp3chief/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="66" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0" vertical-offset="103" max-vertical-offset="663">
+            <state line="15" column="17" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0" vertical-offset="103" max-vertical-offset="663">
               <folding />
             </state>
           </provider>
@@ -121,6 +171,10 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="E:\Bitbucket\mp3chief-android\tools\key" />
+    <option name="KEY_ALIAS" value="mp3chief" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -168,9 +222,14 @@
         <option value="$PROJECT_DIR$/mp3chief/src/main/res/layout/list.xml" />
         <option value="$PROJECT_DIR$/mp3chief/src/main/res/values-es/strings.xml" />
         <option value="$PROJECT_DIR$/mp3chief/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/mp3chief/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/mp3chief/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/mp3chief/src/main/java/com/mc/mp3chief/MainActivity.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -445,15 +504,21 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="ExportedApkPath" value="E:\Bitbucket\mp3chief-android\apk\mp3chief.apk" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="ExportedModule" value="mp3chief" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../screenshots" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="SH05BPB01598" />
+    <property name="DEBUGGABLE_DEVICE" value="SH05BPB01598" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="DEBUGGABLE_PROCESS" value="com.mc.mp3chief" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="AndroidRunProguardForReleaseBuild" value="false" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
@@ -568,6 +633,11 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -602,20 +672,20 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3993174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.27303755" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.27303755" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7303754" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.7303754" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.6006826" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6006826" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.6006826" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6006826" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -690,6 +760,10 @@
         <state line="280" column="53" selection-start="9011" selection-end="9011" vertical-scroll-proportion="0.0" vertical-offset="4505" max-vertical-offset="4709">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#5895#5927#0" expanded="true" />
+            <element signature="e#6011#6721#0" expanded="true" />
+            <element signature="e#6702#6703#0" expanded="true" />
+            <element signature="e#6741#6774#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -707,13 +781,6 @@
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="45" selection-start="767" selection-end="779" vertical-scroll-proportion="0.0" vertical-offset="243" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mp3chief/src/main/java/com/mc/mp3chief/tools/Api.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="60" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.7285714" vertical-offset="0" max-vertical-offset="1037">
           <folding />
         </state>
       </provider>
@@ -737,13 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mp3chief/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="66" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0" vertical-offset="103" max-vertical-offset="663">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mp3chief/src/main/res/layout/list.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -754,13 +814,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mp3chief/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="50" selection-start="929" selection-end="946" vertical-scroll-proportion="0.4559387" vertical-offset="136" max-vertical-offset="1139">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mp3chief/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="17" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0" vertical-offset="103" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mp3chief/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="35" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mp3chief/src/main/java/com/mc/mp3chief/tools/Api.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="8" selection-start="997" selection-end="1224" vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="1037">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mp3chief/src/main/java/com/mc/mp3chief/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="272" column="9" selection-start="8764" selection-end="8764" vertical-scroll-proportion="0.71389645" vertical-offset="4124" max-vertical-offset="4709">
+        <state line="38" column="13" selection-start="975" selection-end="975" vertical-scroll-proportion="-3.8461537" vertical-offset="546" max-vertical-offset="5355">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#5895#5927#0" expanded="true" />
+            <element signature="e#6011#6721#0" expanded="true" />
+            <element signature="e#6702#6703#0" expanded="true" />
+            <element signature="e#6741#6774#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../screenshots/device-2013-06-11-023524.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../screenshots/device-2013-06-11-024041.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../screenshots/device-2013-06-11-024058.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>

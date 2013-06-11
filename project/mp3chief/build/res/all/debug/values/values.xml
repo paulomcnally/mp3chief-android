@@ -6,7 +6,7 @@
         <item>Play</item>
     </string-array>
 
-    <color name="actionbar">#dddddd</color>
+    <color name="actionbar">#000000</color>
     <color name="artist">#2b2b2b</color>
     <color name="black">#000000</color>
     <color name="divider">#dbdbdb</color>
@@ -21,6 +21,7 @@
     <string name="dialog_cancel">Cancel</string>
     <string name="dialog_title">Select</string>
     <string name="example">Example</string>
+    <string name="hello_world">Hello world!</string>
 
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
