@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name" >mp3 Chief
+    <string name="app_name" >mp3Shief
     </string>
     <string name="action_settings" >Settings
     </string>
-    <string name="hello_world" >Hello world!
+    <string name="example" >Example
     </string>
+    <string name="dialog_title">Select</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <string-array
+            name="dialog_array">
+        <item>Download</item>
+        <item>Add to queue</item>
+    </string-array>
 
 </resources>
