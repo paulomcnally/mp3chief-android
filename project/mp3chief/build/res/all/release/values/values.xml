@@ -3,7 +3,7 @@
 
     <string-array name="dialog_array">
         <item>Download</item>
-        <item>Add to queue</item>
+        <item>Play</item>
     </string-array>
 
     <color name="actionbar">#dddddd</color>

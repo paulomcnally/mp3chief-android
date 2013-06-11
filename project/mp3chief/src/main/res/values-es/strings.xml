@@ -13,7 +13,7 @@
     <string-array
             name="dialog_array">
         <item>Descargar</item>
-        <item>Agregar a cola</item>
+        <item>Reproducir</item>
     </string-array>
 
 </resources>

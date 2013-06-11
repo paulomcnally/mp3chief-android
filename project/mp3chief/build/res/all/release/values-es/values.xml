@@ -3,7 +3,7 @@
 
     <string-array name="dialog_array">
         <item>Descargar</item>
-        <item>Agregar a cola</item>
+        <item>Reproducir</item>
     </string-array>
 
     <string name="action_settings">Configuracion</string>

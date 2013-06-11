@@ -4,13 +4,11 @@ import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.Intent;
-import android.media.AudioManager;
 import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.app.Activity;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
@@ -19,7 +17,6 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.mc.mp3chief.tools.Api;
 
@@ -27,19 +24,20 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStream;
-import java.io.OutputStream;
+
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.net.URLConnection;
+
 
 public class MainActivity extends Activity {
 
     private Api api = null;
     private ProgressDialog mProgressDialog;
+    private String my_url;
+    private String my_title;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,10 +48,10 @@ public class MainActivity extends Activity {
 
         // instantiate it within the onCreate method
         mProgressDialog = new ProgressDialog(this);
-        mProgressDialog.setMessage("A message");
         mProgressDialog.setIndeterminate(false);
         mProgressDialog.setMax(100);
         mProgressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+        mProgressDialog.setCancelable(false);
     }
 
     private void initClass() {
@@ -151,8 +149,8 @@ public class MainActivity extends Activity {
 
     private void showDialog(String url, String title) {
 
-        final String my_url = url;
-        final String my_title = title;
+        my_url = url;
+        my_title = title;
         //Log.i(TAG, "show Dialog ButtonClick");
         AlertDialog.Builder builder =
                 new AlertDialog.Builder(this);
@@ -193,11 +191,9 @@ public class MainActivity extends Activity {
 
     private void playMusic(String url){
         try {
-            MediaPlayer player = new MediaPlayer();
-            player.setAudioStreamType(AudioManager.STREAM_MUSIC);
-            player.setDataSource(url);
-            player.prepare();
-            player.start();
+            MediaPlayer mediaPlayer = new MediaPlayer();
+            mediaPlayer = MediaPlayer.create(this, Uri.parse(url));
+            mediaPlayer.start();
 
         } catch (Exception e) {
             // TODO: handle exception
@@ -272,6 +268,7 @@ public class MainActivity extends Activity {
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
+            mProgressDialog.setMessage(my_title.substring(0, 27) + "..." );
             mProgressDialog.show();
         }
 

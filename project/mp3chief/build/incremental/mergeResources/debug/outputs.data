@@ -1,7 +1,7 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1370935406713 459 b740d60b61dde4f03a6e3ae40b8a5ed6fd4fa474 E:\Bitbucket\mp3chief-android\project\mp3chief\build\res\all\debug\values-es\values.xml
+1370936665626 455 f21ee0f17f92ed078a22baef99e490401722b137 E:\Bitbucket\mp3chief-android\project\mp3chief\build\res\all\debug\values-es\values.xml
 1370934403680 616 d86fecae1ad4ab63415fa30b7bcf59a9e3a9dd9d E:\Bitbucket\mp3chief-android\project\mp3chief\build\res\all\debug\drawable-mdpi\ic_search_inverse.png
 1370935406288 5988 9ba8595dc969fec816b61152665c3d0a536fc3fb E:\Bitbucket\mp3chief-android\project\mp3chief\build\res\all\debug\drawable-hdpi\ic_launcher.png
 1370935406289 9624 d7172dc48f9930cfa7d02aacd74312a36e81efc9 E:\Bitbucket\mp3chief-android\project\mp3chief\build\res\all\debug\drawable-xhdpi\ic_launcher.png
@@ -10,7 +10,7 @@
 1370934403586 472 0663a30556976be2fde683ed23c5c597591ba904 E:\Bitbucket\mp3chief-android\project\mp3chief\build\res\all\debug\drawable\list_selector.xml
 1370934403678 1313 775e0878b397e58e6936c45f3ce93d292f7f02d5 E:\Bitbucket\mp3chief-android\project\mp3chief\build\res\all\debug\layout\list.xml
 1370935406291 18771 15beedb955c1af1bfb5cd2540a93cd647252f5f9 E:\Bitbucket\mp3chief-android\project\mp3chief\build\res\all\debug\drawable-xxhdpi\ic_launcher.png
-1370935406708 1308 218bbedda8b6768cd60e379b6ddfa7cfd270643b E:\Bitbucket\mp3chief-android\project\mp3chief\build\res\all\debug\values\values.xml
+1370936665620 1300 1ce01d711671c4b88b8fb8f8ce9c390715a485ef E:\Bitbucket\mp3chief-android\project\mp3chief\build\res\all\debug\values\values.xml
 1370934032976 224 3bee0d9a6f0efbaf11495ad45fdeb8f71aee62e8 E:\Bitbucket\mp3chief-android\project\mp3chief\build\res\all\debug\values-v14\values.xml
 1370934032978 210 c41731f5631a90fa989588ef97e9476fc244b438 E:\Bitbucket\mp3chief-android\project\mp3chief\build\res\all\debug\values-v11\values.xml
 1370934403590 641 ccfd02c7929fef2bfd1e6d4240f3024df655c1cb E:\Bitbucket\mp3chief-android\project\mp3chief\build\res\all\debug\drawable-hdpi\ic_search.png

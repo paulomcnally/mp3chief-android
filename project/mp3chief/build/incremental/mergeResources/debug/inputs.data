@@ -1,7 +1,7 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1370935177967 494 0776d00a56c0b8aa8f662d06733822608609b3d0 E:\Bitbucket\mp3chief-android\project\mp3chief\src\main\res\values-es\strings.xml
+1370936381487 490 21d4e8a04bdb214350f62612b7d6ca508eafcc73 E:\Bitbucket\mp3chief-android\project\mp3chief\src\main\res\values-es\strings.xml
 1370827471964 641 ccfd02c7929fef2bfd1e6d4240f3024df655c1cb E:\Bitbucket\mp3chief-android\project\mp3chief\src\main\res\drawable-hdpi\ic_search.png
 1370905997745 347 a64aad28fce44a5ad784043d4b1f0eb15e8dedd5 E:\Bitbucket\mp3chief-android\project\mp3chief\src\main\res\drawable\gradient_header.xml
 1370903424373 335 d298d59d1f16def33014064de655cc62a439327d E:\Bitbucket\mp3chief-android\project\mp3chief\src\main\res\values-v11\styles.xml
@@ -19,7 +19,7 @@
 1370935306456 9624 d7172dc48f9930cfa7d02aacd74312a36e81efc9 E:\Bitbucket\mp3chief-android\project\mp3chief\src\main\res\drawable-xhdpi\ic_launcher.png
 1370903424375 393 57bf76bb0f2df417c079be64295195b4d9b92f87 E:\Bitbucket\mp3chief-android\project\mp3chief\src\main\res\values-v14\styles.xml
 1370928378186 1813 938c386381cb460d215f0ed977f9a2b5c08ef4f4 E:\Bitbucket\mp3chief-android\project\mp3chief\src\main\res\layout\activity_main.xml
-1370935182983 479 361931caa9644f51f5674332f605fb4785e67842 E:\Bitbucket\mp3chief-android\project\mp3chief\src\main\res\values\strings.xml
+1370936391530 471 585b494c477166ca6e1ce7e86103e0729bcbf923 E:\Bitbucket\mp3chief-android\project\mp3chief\src\main\res\values\strings.xml
 1370926032578 348 de48a2b436fb833270c74b643e6e361074feb5bf E:\Bitbucket\mp3chief-android\project\mp3chief\src\main\res\values\colors.xml
 1370935291410 3024 3af32d77e9428857d276174d2a0af8ebe6f309ae E:\Bitbucket\mp3chief-android\project\mp3chief\src\main\res\drawable-mdpi\ic_launcher.png
 1370903424383 700 fccc63f4b6d5bb06043bc555067eb618e0ab8859 E:\Bitbucket\mp3chief-android\project\mp3chief\src\main\res\values\styles.xml
