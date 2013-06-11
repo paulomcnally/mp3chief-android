@@ -6,7 +6,7 @@ Android app to download mp3
 - 1 - [Iconshock](http://www.iconfinder.com/search/?q=iconset%3Aiconshocksigmadj)
 
 ## Scrape Web: ##
-- 1 - [http://www.mp3chief.com/](http://www.mp3chief.com/) [View source code](https://github.com/paulomcnally/mp3chief-node)
+- 1 - [http://www.mp3chief.com/](http://www.mp3chief.com/) - [mp3chief-node](https://github.com/paulomcnally/mp3chief-node)
 
 License
 =======
